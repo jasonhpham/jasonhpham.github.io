@@ -6,35 +6,38 @@ body {
 }
 
 header {
-  background: #333;
+  background-image: url('https://media.licdn.com/dms/image/v2/D4D16AQE5GIPoEla0pw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1739260392740?e=1744848000&v=beta&t=DQTXYfDmEEg8oU77tqNppB8Sa1UaCLVMZg1PCCJO15I'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  padding: 40px 0;
   text-align: center;
-  padding: 1em 0;
 }
 
 #about {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  text-align: center; /* Ensures text is centered */
-  min-height: auto; /* Removes forced height */
-  padding: 20px 0; /* Reduces top and bottom padding */
-  margin: 0 auto; /* Ensures proper spacing */
-  max-width: 800px; /* Keeps text readable */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: auto;
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 #about h2 {
   font-size: 28px;
-  margin-bottom: 10px; /* Reduce space below heading */
+  margin-bottom: 10px;
 }
 
 #about p {
   font-size: 18px;
   color: #555;
   max-width: 600px;
-  line-height: 1.4; /* Improves readability */
-  margin-bottom: 0; /* Removes bottom margin */
+  line-height: 1.4;
+  margin-bottom: 0;
 }
 
 nav a {
@@ -99,9 +102,9 @@ nav a {
 }
 
 .profile-pic {
-  width: 200px; /* Adjust size */
+  width: 200px;
   height: 200px;
-  border-radius: 50%; /* Makes it circular */
-  margin-left: 10px; /* Adds spacing */
+  border-radius: 50%;
+  margin-left: 10px;
   vertical-align: middle;
 }
