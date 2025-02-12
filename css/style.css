@@ -20,6 +20,47 @@ header {
 }
 
 .header-box {
+  background: rgba(30, 30, 30, 0.9);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.header-box h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+  border: 3px solid #BB86FC;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #BB86FC;
+  text-decoration: none;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #FFFFFF;
+}
+
+.header-box {
   background: rgba(30, 30, 30, 0.8);
   display: inline-block;
   padding: 20px;
@@ -40,16 +81,25 @@ header {
   border: 3px solid #BB86FC;
 }
 
-section {
-  padding: 20px;
-  margin: 0 auto;
+.section-container {
   max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
 }
 
 h2 {
   font-size: 28px;
   color: #FFFFFF;
   margin-bottom: 10px;
+}
+
+.boxed-content {
+  background: rgba(30, 30, 30, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-top: 10px;
 }
 
 p {
