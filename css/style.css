@@ -23,18 +23,11 @@ header {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
-.header a{
+.header-box a:link,
+.header-box a:visited,
+.header-box a{
   color: inherit;
-  text-decoration: none;
-}
-
-a:visited {
-  color: inherit;
-}
-
-a:link {
-  color: inherit;
+  text-decoration: underline;
 }
 
 .header-box {
