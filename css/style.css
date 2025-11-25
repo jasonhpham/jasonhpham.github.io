@@ -30,6 +30,17 @@ header {
   text-decoration: underline;
 }
 
+.header-box h2{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.header-box a:link,
+.header-box a:visited,
+.header-box a{
+  color: inherit;
+  text-decoration: underline;
+}
+
 .header-box {
   background: rgba(30, 30, 30, 0.9);
   display: inline-block;
