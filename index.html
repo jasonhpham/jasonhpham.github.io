@@ -30,8 +30,8 @@
   <h2>About Me</h2>
   <section id="about" class="boxed-content">
     <p>
-      Hi, I'm Jason Pham, a third-year student currently majoring in Game Design and Interactive Media and Computer Science.
-      I'm a Game Designer and Programmer passionate about card games and first-person shooters, looking to break into the industry.
+      Hi, I'm Jason Pham, a third-year student currently majoring in <strong>Game Design and Interactive Media and Computer Science</strong>.
+      I'm a <strong>Game Designer and Programmer</strong> passionate about card games and first-person shooters, looking to break into the industry.
     </p>
   </section>
 </div>
@@ -49,20 +49,70 @@
 
 <section id="projects">
   <h2>Projects</h2>
+
   <div class="project">
-    <h3>BREAKER (IN DEVELOPMENT)</h3>
+    <h3>Japanese Salaryman (March 2026-)</h3>
+    <a href="https://store.steampowered.com/app/3738500/Japanese_Salaryman_Demo/">Wishlist and Play the Demo!<br /></a>
     <p>
-      BREAKER is an in-development speedrunning FPS made within Unreal where the only objectives are adrenaline and revenge.
-      The intended experience is a fast-paced arena movement shooter with an emphasis on speedrunning.
-      I am currently working as a gameplay programmer, implementing the weapon and ability systems from designer prototypes and documents.
+      Japanese Salaryman is an <strong>office-noir RPG set in 1990s Japan</strong>, where a debt-ridden security specialist balances everyday office life with corporate espionage.
+      Players hack company systems, sell sensitive information, and navigate <strong>relationships and faction reputations</strong> to work their way out of debt.
+    </p>
+    <p>
+      As a <strong>gameplay programmer</strong>, I develop backend systems and authoring tools in <strong>Unity and C#</strong> for a <strong>modular relationship system</strong>.
+      My work in runtime includes in-game relationship progression tracking, collectable tracking, and event-driven NPC spawn scheduling.
+      For the backend, I extended database and editor tools so designers can configure character relationships (collectables, availability, art/scene assets).
+    </p>
+    <p>
+      As a <strong>game designer</strong>, I also contribute to <strong>feature refinement</strong>, working on <strong>gameplay balancing and side quests</strong> to support the game's progression and player experience.
     </p>
     <div class="gallery">
+      <img src="img/main_capsule.png" alt="Project 2 Image 1">
+      <img src="img/jsm1.jpg" alt="Project 2 Image 2">
+      <img src="img/jsm2.jpg" alt="Project 2 Image 3">
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>BREAKER (Sept 2025-March 2026)</h3>
+    <a href="https://dekkerd.itch.io/breaker">Play Here!<br /></a>
+    <p>
+      BREAKER is a <strong>speedrunning FPS</strong> made within <strong>Unreal Engine 5</strong> where the only objectives are adrenaline and revenge.
+      The intended experience is a fast-paced arena movement shooter with an emphasis on speedrunning.
+    </p>
+    <p>
+      As a <strong>combat gameplay programmer</strong>, I extended Unreal Engine 5's FPS template in <strong>C++</strong> to turn designer prototypes and documents into playable weapon systems.
+    </p>
+    <ul class="contributions">
+      <li><strong>Weapon systems:</strong> Implemented hitscan and projectile firing, configurable recoil and bullet spread, ammo management, weapon inventory and switching, and respawning pickups.</li>
+      <li><strong>Abilities and designer tools:</strong> Integrated weapon damage and discard-triggered "cashout" abilities with Unreal's <strong>Gameplay Ability System</strong>, exposing settings so designers could tune weapons and assign abilities directly in the editor.</li>
+      <li><strong>UI implementation:</strong> Connected weapon and ammo state to HUD updates and used <strong>Adobe Photoshop</strong> to create UI assets from designer prototypes for implementation in-game.</li>
+    </ul>
+    <div class="gallery">
+      <iframe
+        src="https://www.youtube.com/embed/e1b_nLatGSc"
+        title="BREAKER gameplay"
+        width="711"
+        height="400"
+        style="flex-shrink: 0; border: 0; border-radius: 5px;"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <iframe
+        src="https://www.youtube.com/embed/qonGevbkhig"
+        title="BREAKER gameplay"
+        width="711"
+        height="400"
+        style="flex-shrink: 0; border: 0; border-radius: 5px;"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
       <video controls style="height: 400px; width: auto;">
         <source src="img/breakerdemo.mp4" type="video/mp4">
         Your Browser does not support the video tag.
       </video>
       <img src="img/breaker1.png" alt="Project 1 Image 2">
-      <img src="img/breaker2.png" alt="Project 1 Image 3">
     </div>
   </div>
 
@@ -70,8 +120,10 @@
     <h3>CollegeCookingWare (March-June 2025)</h3>
     <p>
       CollegeCookingWare is a themed minigame collection game where players take on the role of a struggling college student trying to cook struggle meals
-      while managing their social and academic life, each represented through fast-paced minigames. This Project was built in Godot using GDScript.
-      My role within the project was a gameplay programmer and technical artist, integrating art/audio assets, programming the logic for 10 minigames, and composing the game's soundtrack.
+      while managing their social and academic life, each represented through fast-paced minigames. This project was built in <strong>Godot using GDScript</strong>.
+    </p>
+    <p>
+      As a <strong>gameplay programmer and technical artist</strong>, I programmed the logic for <strong>10 minigames</strong>, integrated art and audio assets, and <strong>composed the game's soundtrack</strong>.
     </p>
     <a href="https://ishaanm.itch.io/college-chef-beta">Play Here!<br /></a>
     <div class="gallery">
@@ -87,10 +139,12 @@
   <div class="project">
     <h3>The Murder of Master Roberts (March-June 2025)</h3>
     <p>
-      The Murder of Master Roberts is a text-based murder mystery built in HTML and JavaScript using Twine where players take the role of a detective investigating the death of the eccentric billionaire Mr. Roberts.
+      The Murder of Master Roberts is a text-based murder mystery built in <strong>HTML and JavaScript using Twine</strong> where players take the role of a detective investigating the death of the eccentric billionaire Mr. Roberts.
       Players have the option to interrogate a cast of 7 different characters, gathering clues along the way and discerning red herrings to discover the true murderer.
-      My role within the project was a gameplay programmer, integrating a Google Sheets API in JavaScript that tracked decisions, time spent, and paths taken across playthroughs.
-      Me and my group then applied this data to answer questions that we had about player behavior in our game.
+    </p>
+    <p>
+      As a <strong>gameplay programmer</strong>, I integrated the <strong>Google Sheets API</strong> in JavaScript to track player decisions, time spent, and paths taken across playthroughs.
+      My team and I used this data to <strong>analyze player behavior</strong> in our game.
     </p>
     <a href="img/Game%20Data%20Analysis.pdf">Our Findings From Data<br /></a>
     <a href="https://drive.google.com/drive/folders/1_g6WdJiQjQnJ__9gjdGtdisKZKjPfTTd?usp=sharing">Download the *.html linked and play!<br /></a>
@@ -105,13 +159,13 @@
   <div class="project">
     <h3>Grand Prix (October-December 2024)</h3>
     <p>
-      Grand Prix is a fast-paced, pub-style card game where players strategically time their moves to outmaneuver opponents and claim victory in intense 1v1 races, intending to recreate the "casual" tension of games like Skull and Uno.
-      Each turn, players choose to draw cards, prepare for their next challenge, or initiate a Grand Prix, attempting to defeat every opponent in a sequential series of races.
-      Players engage in bluffing mechanics by predicting whether their opponent’s face-down card is higher, lower, or the same as theirs, with correct calls adding to their Prize Pool, while incorrect calls result in losing all
-      played cards. Ties up the ante, forcing players to continue racing neck and neck until a clear winner emerges, while some cards feature special abilities that activate during ties that can pull a player ahead.
-      Players can also Back Down from a Grand Prix attempt to minimize risk, and cut their losses.
-      The game supports 3-6 players, lasts 15-30 minutes, and requires a mix of resource management, deduction, and high-stakes decision-making, making every match tense, rewarding, and highly replayable for
-      players of all kinds who enjoy a competitive, yet welcoming experience. On this project, I worked as a co-game designer, and also created all digital graphics for the game, including cards and cover art.</p>
+      Grand Prix is a <strong>bluffing and risk-taking card game</strong> for <strong>3-6 players</strong>, with matches lasting <strong>15-30 minutes</strong>.
+      Inspired by the casual tension of Skull and Uno, players predict opponents' face-down cards in sequential 1v1 races, building their Prize Pool or backing down to cut their losses.
+      Ties and special card abilities keep races unpredictable.
+    </p>
+    <p>
+      As a <strong>co-game designer</strong>, I contributed to the game's design and created <strong>all digital graphics</strong>, including the cards and cover art.
+    </p>
     <a href="https://docs.google.com/document/d/1CGBaWAdH7NnrU33wJK64NBblbtJo4bIEiiILYcAmiQg/edit?usp=sharing">Rulebook<br /></a>
     <a href="https://drive.google.com/file/d/1S1hWh-0v6n6fvPlJv-35XDNim53I3c1q/view?usp=sharing">Print Sheet! (just print, cut, and sleeve!)</a>
     <div class="gallery">
@@ -123,10 +177,13 @@
 
   <div class="project">
     <h3>Landlord Simulator (March-June 2024)</h3>
-    <p>Landlord Simulator is a management simulator, where players take on the role of well, a landlord.
+    <p>Landlord Simulator is a <strong>management simulator</strong>, where players take on the role of well, a landlord.
     As a landlord, you have to balance factors such as tenant satisfaction, rent, upgrades, and the surprises life brings you (a pipe explosion).  This game features tenant interactions, financial management, and a week-based progression system, along with randomly generated events to keep things engaging.
     With this game, our group sought out to make something as mundane as being a landlord, fun.
-      My contributions to the project include designing the game's systems, and programing them within Unity.</p>
+    </p>
+    <p>
+      I contributed to <strong>game systems design and programming</strong>, implementing the game's systems in <strong>Unity</strong>.
+    </p>
     <a href="https://alex-madas.itch.io/landlord-simulator">Play Here! (itch.io)<br /></a>
     <div class="gallery">
       <img src="img/landlordsim1.png" alt="Project 2 Image 1">
@@ -137,10 +194,13 @@
 
   <div class="project">
     <h3>Lost To Space (February-June 2024)</h3>
-    <p>Lost to Space is a 2D survival sandbox, where you play as a marooned astronaut part of the Reconnaissance for Earth's Survival (R.E.S.) program.
+    <p>Lost to Space is a <strong>2D survival sandbox</strong>, where you play as a marooned astronaut part of the Reconnaissance for Earth's Survival (R.E.S.) program.
       Players must navigate a procedurally generated, looping world, utilizing movement abilities, mining and placing blocks, managing inventory, engaging in combat,
       and facing enemies (big and small slimes!) to survive.
-      As part of the development team, I contributed to the game's programming, focusing on implementing core mechanics such as the movement system, enemy AI behavior, and the combat framework.</p>
+    </p>
+    <p>
+      As a <strong>gameplay programmer</strong>, I implemented core mechanics including the <strong>movement system, enemy AI behavior, and combat framework</strong>.
+    </p>
     <a href="https://gghidra.itch.io/lost-to-space">Play Here! (itch.io)<br /></a>
     <div class="gallery">
       <img src="img/losttospace1.png" alt="Project 2 Image 1">
@@ -151,13 +211,15 @@
 
 <div class="project">
     <h3>Virtual Vendetta (February-March 2024)</h3>
-    <p>Virtual Vendetta is a short-card cyberpunk-inspired deck-building card battler, where your goal is to beat the champion of the metro.
+    <p>Virtual Vendetta is a cyberpunk-inspired <strong>deck-building card battler</strong>, where your goal is to beat the champion of the metro.
     Standing in your way though, lays a path of enemies that you have to take down, each with their own deck designs and behaviors.
       As a player, you have a vast arsenal of cards that you can buy and customize your deck with, choosing either to duke it out on your own,
       or possibly set up deadly synergies with your partner.
-    Virtual Vendetta is a local 2-player game, with the option for a single player experience with an AI companion.
-    My contributions to the project include gameplay programming, coding all card interactions and types, AI, and status effects. I also
-      contributed to the overall combat design of the game.</p>
+    Virtual Vendetta supports <strong>local 2-player co-op</strong>, with the option for a single-player experience with an AI companion.
+    </p>
+    <p>
+      As a <strong>gameplay programmer</strong>, I coded <strong>all card interactions and types, AI, and status effects</strong>. I also contributed to the game's <strong>combat design</strong>.
+    </p>
     <a href="https://jasonhpham.itch.io/virtual-vendetta">Play Here! (itch.io)<br /></a>
     <div class="gallery">
       <img src="img/vv1.png" alt="Project 2 Image 1">
@@ -168,9 +230,12 @@
 
   <div class="project">
     <h3>Run N' Gun (September-December 2023)</h3>
-    <p>Run N' Gun is an infinite runner with ever-increasing infinite numbers, whether that be score, upgrades, or your gun!
+    <p>Run N' Gun is an <strong>infinite runner</strong> with ever-increasing numbers, whether that be score, upgrades, or your gun!
     Run, Jump, and shoot as far as you can, and take the coins you claim to take yourself even further!
-    This Game was made in Unity, and I worked as a Gameplay Programmer and Debugger, programming the main gameplay and savegame logic. </p>
+    </p>
+    <p>
+      As a <strong>gameplay programmer and debugger</strong>, I programmed the <strong>main gameplay and savegame logic</strong> in <strong>Unity</strong>.
+    </p>
     <a href="https://jasonhpham.itch.io/run-n-gun">Play Here! (itch.io)<br /></a>
     <div class="gallery">
       <img src="https://img.itch.zone/aW1nLzE0Mjc4MDM3LnBuZw==/347x500/LMWYqw.png" alt="Project 2 Image 1">
